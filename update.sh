@@ -10,4 +10,4 @@ if [ ! -z "$str" ]; then
 fi
 
 echo $(git pull)
-$2 &
+nohup $2 &
